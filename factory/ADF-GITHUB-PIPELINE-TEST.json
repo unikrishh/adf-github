@@ -1,0 +1,9 @@
+{
+	"name": "ADF-GITHUB-PIPELINE-TEST",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d890976b-6254-4fcc-a0f1-0edc50eb1b20",
+		"tenantId": "e66f5861-1ee5-489d-93c5-789e611a8cce"
+	}
+}
