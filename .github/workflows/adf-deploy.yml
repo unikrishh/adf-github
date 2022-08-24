@@ -47,9 +47,9 @@ jobs:
           # Data factory name
           dataFactoryName: ADF-GITHUB-PIPELINE-UAT
           # ARM template file name
-          armTemplateFile: ../../ADF-GITHUB-PIPELINE-TEST/ARMTemplateForFactory.json # optional, default is ARMTemplateForFactory.json
+          armTemplateFile: ./ADF-GITHUB-PIPELINE-TEST/ARMTemplateForFactory.json # optional, default is ARMTemplateForFactory.json
           # ARM template parameters file name
-          armTemplateParametersFile: ../../ADF-GITHUB-PIPELINE-TEST/ARMTemplateParametersForFactory.json # optional, default is ARMTemplateParametersForFactory.json
+          armTemplateParametersFile: ./ADF-GITHUB-PIPELINE-TEST/ARMTemplateParametersForFactory.json # optional, default is ARMTemplateParametersForFactory.json
           # Parameters which will be replaced in the ARM template
           #additionalParameters: # optional, default is 
           # Parameters which skip the Az module installation
