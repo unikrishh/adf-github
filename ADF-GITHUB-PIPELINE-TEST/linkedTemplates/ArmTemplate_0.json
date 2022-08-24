@@ -20,6 +20,7 @@
 				"activities": [
 					{
 						"name": "Wait1",
+						"description": "Testing ....",
 						"type": "Wait",
 						"dependsOn": [],
 						"userProperties": [],
