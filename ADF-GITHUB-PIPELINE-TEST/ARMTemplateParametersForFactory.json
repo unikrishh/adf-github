@@ -4,6 +4,9 @@
 	"parameters": {
 		"factoryName": {
 			"value": "ADF-GITHUB-PIPELINE-TEST"
+		},
+		"trigger1_properties_pipeline2_parameters_test_param": {
+			"value": "mark"
 		}
 	}
 }

@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "ADF-GITHUB-PIPELINE-TEST"
 		},
+		"trigger1_properties_pipeline2_parameters_test_param": {
+			"type": "string",
+			"defaultValue": "mark"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -33,6 +37,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"trigger1_properties_pipeline2_parameters_test_param": {
+						"value": "[parameters('trigger1_properties_pipeline2_parameters_test_param')]"
 					}
 				}
 			},
