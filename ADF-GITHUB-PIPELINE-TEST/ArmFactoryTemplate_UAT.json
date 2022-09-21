@@ -5,8 +5,8 @@
 		"factoryName": {
 			"value": "ADF-GITHUB-PIPELINE-TEST"
 		},
-     "test_param": {
-            "value": "ZIP.zip"
-        }
+		"trigger1_properties_pipeline2_parameters_test_param": {
+			    "value": "ZIP.zip"
+		}
 	}
 }
