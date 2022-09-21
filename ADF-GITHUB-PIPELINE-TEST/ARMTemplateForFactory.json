@@ -35,7 +35,8 @@
 				},
 				"parameters": {
 					"test_param": {
-						"type": "string"
+						"type": "string",
+						"defaultValue": "test"
 					}
 				},
 				"annotations": []
