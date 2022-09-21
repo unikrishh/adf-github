@@ -33,6 +33,11 @@
 					"elapsedTimeMetric": {},
 					"cancelAfter": {}
 				},
+				"parameters": {
+					"test_param": {
+						"type": "string"
+					}
+				},
 				"annotations": []
 			},
 			"dependsOn": []
